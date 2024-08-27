@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    font-size:14px;
+}
+
+body {
+    background-color: #111111;
+}
+
+.canvas {
+    width: 400px;
+    height: 600px;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    margin 40px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+.container{
+    padding:20px;
+}
+.frame {
+    border: 100px ;
+    width: 400px;
+    padding: 80px;
+    margin: 20px auto;
+}
+.text {
+    color: hsl(75, 94%, 57%);
+    font-family: "Montserrat", sans-serif;
+    line-height:0.1;
+   
+}
+.text2 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+
+   
+}
+.text3 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    padding:5px;
+}
+img{
+border-radius:100%;
+width:100px;
+height:100px;
+}
+.container1 {
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.git {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    background-color: #333333;
+    border:none;
+   
+}
+.git:hover{
+    background-color:green;
+    transition-duration:0.5s;
+    cursor:pointer;
+}
+.frontend {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    background-color: #333333;
+    border: none;
+}
+.frontend:hover {
+        background-color: green;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+.linkedin {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    background-color: #333333;
+    border: none;
+}
+    .linkedin:hover {
+        background-color: green;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+.twitt {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    background-color: #333333;
+    border: none;
+}
+    .twitt:hover {
+        background-color: green;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+.insta {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    background-color: #333333;
+    border: none;
+}
+    .insta:hover {
+        background-color: green;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+.textbtn {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
